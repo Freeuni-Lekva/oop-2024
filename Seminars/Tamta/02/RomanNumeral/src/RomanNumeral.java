@@ -1,7 +1,10 @@
 public class RomanNumeral {
+    // internal representation of RomanNumeral
     private int arabicNumber;
+    
     private final static String[] letters = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
     private final static int[] numbers = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
+    
     public RomanNumeral(int arabicNumber) {
         if (arabicNumber < 1 || arabicNumber > 3999) {
             throw new IllegalArgumentException("Number out of range");
