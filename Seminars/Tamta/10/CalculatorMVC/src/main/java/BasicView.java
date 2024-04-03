@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class BasicView {
+public abstract class BasicView implements View {
+    ViewInputListener inputListener;
+
+    public void registerInputListener(ViewInputListener listener){
+        inputListener = listener;
+    }
 }

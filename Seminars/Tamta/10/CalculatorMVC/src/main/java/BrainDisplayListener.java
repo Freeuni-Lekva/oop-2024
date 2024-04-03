@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class BrainDisplayListener {
+public interface BrainDisplayListener {
+
+    void displayChanged(String display);
 }

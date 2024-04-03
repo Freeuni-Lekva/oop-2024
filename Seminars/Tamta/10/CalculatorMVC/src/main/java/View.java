@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class View {
+public interface View extends BrainDisplayListener {
+    void show();
+
 }
