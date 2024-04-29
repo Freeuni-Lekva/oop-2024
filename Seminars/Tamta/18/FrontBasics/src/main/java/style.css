@@ -1,0 +1,16 @@
+table {
+    background-color: dodgerblue;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.my-container{
+    background-color: chartreuse;
+}
+
+#add-student {
+    font-family: "American Typewriter", monospace;
+}
